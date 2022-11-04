@@ -7,7 +7,6 @@
 import axios from 'axios'
 import BaseCard from '@/components/BaseComponents/BaseCard.vue'
 export default {
-  name :"AboutView",
   components : {BaseCard},
   data() {
     return {
@@ -25,7 +24,7 @@ export default {
 </script>
 <style>
     #cards{
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
         display : grid;
         
     }
